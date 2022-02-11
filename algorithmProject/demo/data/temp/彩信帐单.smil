@@ -1,0 +1,45 @@
+<smil xmlns="http://www.w3.org/2000/SMIL20/CR/Language">
+<head>
+    <layout>
+        <root-layout width="208" height="176" />
+	<region id="Image" width="80%" height="80%" left="0%" top="0%" fit="fit" />
+	<region id="Text" width="100%" height="100%" left="0%" top="0%" fit="scroll" />
+    </layout>
+</head>
+<body>
+
+    <par dur="15s">
+        <text src="1.txt" region="Text" />
+    </par>
+
+    <par dur="15s">
+        <text src="2.txt" region="Text" />
+    </par>
+
+    <par dur="15s">
+        <text src="3.txt" region="Text" />
+    </par>
+
+    <par dur="15s">
+        <text src="4.txt" region="Text" />
+    </par>
+
+    <par dur="15s">
+        <text src="5.txt" region="Text" />
+    </par>
+
+    <par dur="15s">
+        <text src="6.txt" region="Text" />
+    </par>
+
+    <par dur="25s">
+        <audio src="FFX61N8X.mid" region="audio" />
+    </par>
+
+    <par dur="15s">
+        <img src="riben_175.jpg" region="Image"/>
+        <text src="riben_175.txt" region="Text" />
+    </par>
+
+</body>
+</smil>
